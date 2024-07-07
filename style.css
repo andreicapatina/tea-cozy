@@ -1,0 +1,134 @@
+* {
+    font-family: Helvetica;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    margin: 0;
+    /* Text is centered orizontaly */
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid seashell;
+    height: 69px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+    font-size: 22px;
+
+}
+
+#navbar-logo {
+    display: flex;
+    height: 50px;
+}
+
+#navbar-links li{
+    display: inline-block;
+    margin-left: 20px;
+}
+
+a {
+    text-decoration: underline;
+}
+
+
+section {
+    width: 1200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin-bottom: 50px;
+}
+
+/*Sectiunea nr1*/
+
+#our-mission {
+    height: 700px;
+    background-image: url(./images/img-mission-background.jpg);
+}
+
+#our-mission * {
+    text-align: center;
+    width: 1200px;
+    opacity: 1;
+    padding: 10px;
+}
+
+
+/* Sectiunea nr2*/
+
+#tea-month {
+    text-align: center;
+}
+
+#tea-month img {
+    width: 300px;
+    height: 200px;
+}
+
+#tea-month * {
+    margin: 5px;
+}
+
+#tea-images {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1000px;
+    justify-content: center;
+}
+
+/*Sectiunea nr3*/
+
+#locations {
+    height: 500px;
+    background-image: url(images/img-locations-background.jpg);
+    margin: 0;
+}
+
+#locations h2 {
+    background-color: transparent;
+}
+
+#locations > div {
+    display: flex;
+    opacity: 1;
+    margin: 15px;
+    background-color: transparent;
+}
+
+#locations div div {
+    margin: 20px;
+    width: 300px;
+    text-align: center;
+    opacity: 1;
+    padding: 10px 0px 10px 0px;
+}
+
+#locations div div * {
+    padding: 10px;
+}
+
+/* Sectiunea contacts*/
+
+#contacts {
+    height: 200px;
+    justify-content: space-around;
+}
+
+/* Sectiunea footer*/
+
+footer {
+    margin: 20px;
+}
