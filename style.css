@@ -7,18 +7,23 @@
     /* Text is centered orizontaly */
 }
 
+header {
+    max-width: 1400px;
+    margin: auto;
+}
+
 main {
     display: flex;
     flex-direction: column;
     align-items: center;
-
+    border-top: 1px solid seashell;
 }
 
 #navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-bottom: 1px solid seashell;
+
     height: 69px;
     padding-left: 10px;
     padding-right: 10px;
@@ -54,12 +59,12 @@ section {
 
 /*Sectiunea nr1*/
 
-#our-mission {
+#mission {
     height: 700px;
     background-image: url(./images/img-mission-background.jpg);
 }
 
-#our-mission * {
+#mission * {
     text-align: center;
     width: 1200px;
     opacity: 1;
@@ -69,16 +74,16 @@ section {
 
 /* Sectiunea nr2*/
 
-#tea-month {
+#feautured {
     text-align: center;
 }
 
-#tea-month img {
+#feautured img {
     width: 300px;
     height: 200px;
 }
 
-#tea-month * {
+#feautured * {
     margin: 5px;
 }
 
@@ -130,5 +135,7 @@ section {
 /* Sectiunea footer*/
 
 footer {
-    margin: 20px;
+    margin: auto;
+    margin-bottom: 20px;
+    max-width: 1400px;
 }
